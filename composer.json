@@ -1,0 +1,19 @@
+{
+    "name": "alamin/appointment",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Al-Amin Sarker",
+            "email": "cseal.amin.09@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Enzaime\\Appointment\\": "includes/"
+        },
+        "files": []
+    }
+}
